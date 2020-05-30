@@ -1,2 +1,9 @@
 # Event-Management-App
-An event management app (Android), helpful for managing the events in schools, colleges, etc.
+An Event Management Android Mobile App,<br />helpful in managing the events, collaborating with peers, imparting knowledge in schools, colleges, etc.
+
+**Important Elements -**
+- Firebase
+- Cards
+- Recycler View
+- Collapsing Toolbar Layout
+- Splash Screen, etc.
