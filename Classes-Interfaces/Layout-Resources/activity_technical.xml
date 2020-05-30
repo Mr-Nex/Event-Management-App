@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk5"
+    tools:context=".Technical">
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/coding" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView42"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/junkyard" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView42"
+        android:layout_below="@+id/imageView42"
+        android:text="Reverse Coding" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView43"
+        android:layout_below="@+id/imageView42"
+        android:text="Junkyard Wars" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView42"
+        android:layout_marginTop="201dp"
+        android:src="@drawable/bomb2" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView42"
+        android:layout_below="@+id/imageView44"
+        android:text="Bomb Defuser" />
+</RelativeLayout>

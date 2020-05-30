@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bk5"
+    android:layout_height="match_parent"
+    tools:context=".Miscellaneous">
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/tug_of_war" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView32"
+        android:layout_marginEnd="36dp"
+        android:src="@drawable/super_min" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView32"
+        android:layout_below="@+id/imageView32"
+        android:text="Tug Of War" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView33"
+        android:layout_below="@+id/imageView32"
+        android:text="Super Minute" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView32"
+        android:layout_marginTop="195dp"
+        android:src="@drawable/chef" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/imageView33"
+        android:layout_alignTop="@+id/imageView34"
+        android:src="@drawable/nail21" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView32"
+        android:layout_below="@+id/imageView34"
+        android:text="Master Chef" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView33"
+        android:layout_below="@+id/imageView34"
+        android:text="Nail-Art" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_above="@+id/textView36"
+        android:layout_alignStart="@+id/imageView32"
+        android:src="@drawable/face_paint" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView32"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Face Painting" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/imageView33"
+        android:layout_alignTop="@+id/imageView36"
+        android:src="@drawable/map" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView33"
+        android:layout_below="@+id/imageView36"
+        android:text="Map the Snap" />
+</RelativeLayout>

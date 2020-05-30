@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk5"
+    tools:context=".DesignDigitalArt">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/cam1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginEnd="29dp"
+        android:src="@drawable/photo_mani" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="148dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:gravity="center"
+        android:text="Photography"
+        android:textColor="#fdd835"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="148dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_below="@+id/imageView3"
+        android:gravity="center"
+        android:text="Photo Manipulation"
+        android:textColor="#fdd835"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginTop="195dp"
+        android:src="@drawable/filming" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView5"
+        android:src="@drawable/sketch" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_below="@+id/imageView5"
+        android:text="Short Film" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginStart="2dp"
+        android:text="Sketching" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginBottom="81dp"
+        android:src="@drawable/paint" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="-81dp"
+        android:text="Creative Painting" />
+
+</RelativeLayout>

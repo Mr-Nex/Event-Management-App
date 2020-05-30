@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk5"
+    tools:context=".Dance">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Dance"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/solo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/salsa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:gravity="center"
+        android:text="Solo Dance" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:text="Salsa Dance" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="193dp"
+        android:src="@drawable/choreo" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:gravity="center"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView45"
+        android:text="Choreonight" />
+
+</RelativeLayout>

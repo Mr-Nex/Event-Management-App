@@ -1,1 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
+    <!--<ImageView-->
+        <!--android:id="@+id/slide_image"-->
+        <!--android:layout_width="224dp"-->
+        <!--android:layout_height="201dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="83dp"-->
+        <!--app:srcCompat="@drawable/dance" />-->
+
+    <TextView
+        android:id="@+id/slide_image"
+        android:layout_width="224dp"
+        android:layout_height="201dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/dance" />
+
+    <TextView
+
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:text="DANCE"
+        android:textColor="#D32F2F"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold" />
+
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:text="TextView" />
+</RelativeLayout>

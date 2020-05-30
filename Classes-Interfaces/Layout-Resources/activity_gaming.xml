@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk5"
+    tools:context=".Gaming">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/dota2" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/counter_strike" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:gravity="center"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_below="@+id/imageView11"
+        android:text="DOTA-2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/imageView12"
+        android:layout_below="@+id/imageView11"
+        android:gravity="center"
+        android:text="Counter-Strike"
+        android:textColor="#fdd835"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_marginTop="207dp"
+        android:src="@drawable/nfs2" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/imageView12"
+        android:layout_alignTop="@+id/imageView13"
+        android:src="@drawable/fifa" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_below="@+id/imageView13"
+        android:gravity="center"
+        android:text="Need for Speed: MW"
+        android:textColor="#fdd835"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView12"
+        android:layout_below="@+id/imageView13"
+        android:text="FIFA-15" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_above="@+id/textView15"
+        android:layout_alignStart="@+id/imageView11"
+        android:src="@drawable/cod" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_marginBottom="37dp"
+        android:gravity="center"
+        android:text="Call of Duty 4" />
+</RelativeLayout>

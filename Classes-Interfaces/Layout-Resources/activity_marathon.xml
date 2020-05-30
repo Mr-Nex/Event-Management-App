@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk5"
+    tools:context=".Marathon">
+
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/run"/>
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView46"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/run2" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView46"
+        android:layout_below="@+id/imageView46"
+        android:text="5km Run" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView47"
+        android:layout_below="@+id/imageView46"
+        android:text="10km Run" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView46"
+        android:layout_marginTop="215dp"
+        android:src="@drawable/run3" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView46"
+        android:layout_below="@+id/imageView48"
+        android:text="15km Run" />
+
+</RelativeLayout>

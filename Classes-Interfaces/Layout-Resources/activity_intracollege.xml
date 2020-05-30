@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk5"
+    tools:context=".Intracollege">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/talent2" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView16"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/mr_miss" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="148dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_below="@+id/imageView16"
+        android:gravity="center"
+        android:text="Student's got Talent"
+        android:textColor="#fdd835"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_below="@+id/imageView16"
+        android:text="Mr and Miss" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_above="@+id/textView18"
+        android:layout_alignStart="@+id/imageView16"
+        android:src="@drawable/lagori" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_alignTop="@+id/imageView18"
+        android:src="@drawable/rangoli" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_marginBottom="209dp"
+        android:gravity="center"
+        android:text="Lagori" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_below="@+id/imageView18"
+        android:text="Rangoli" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_above="@+id/textView20"
+        android:layout_alignStart="@+id/imageView16"
+        android:src="@drawable/beg_borrow" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_alignTop="@+id/imageView20"
+        android:src="@drawable/treasure" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:text="Beg,Borrow,Steal" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fdd835"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_below="@+id/imageView20"
+        android:text="Treasure Hunt" />
+</RelativeLayout>
